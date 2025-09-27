@@ -27,7 +27,7 @@ This script converts files with the `.odt` (OpenDocument Text) extension to Mark
 ### Feel free to contact me through the following profiles:
 ├── odt_to_md_converter.py # Main script to convert and format
 ├── README.md # This file
-├── examples/ # Carpeta con archivos de ejemplo (.odt y .md)
+├── examples/ # Folder with file examples (.odt y .md)
 
 
 
