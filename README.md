@@ -1,36 +1,36 @@
-
-```markdown
 # ODT TO MD CONVERTER
 
- ## [Linkedin](https://www.linkedin.com/in/andrespds/) | [GitHub](https://github.com/tobproject) | [Instagram](https://www.instagram.com/tob_project/)
 
+#### Feel free to contact me through the following profiles:
+
+ ## [Linkedin](https://www.linkedin.com/in/andrespds/) | [GitHub](https://github.com/tobproject) | [Instagram](https://www.instagram.com/tob_project/)
 
 ---
 
 ## Description
 
-Este script convierte archivos con extensión `.odt` (OpenDocument Text) a archivos Markdown (`.md`), añadiendo automáticamente la fecha de creación en formato YAML para facilitar su uso en plataformas como GitBook. Además, permite insertar estilos HTML personalizados en el Markdown resultante para mejorar el formato visual.
+This script converts files with the `.odt` (OpenDocument Text) extension to Markdown (`.md`) files, automatically adding the creation date in YAML format for easier use on platforms like GitBook. It also allows you to insert custom HTML styles into the resulting Markdown to improve the visual formatting.
 
 ---
 
 ## Features
 
-- Convierte archivos ODT a Markdown con alta fidelidad usando Pandoc.  
-- Añade frontmatter YAML con la fecha de creación del archivo para mostrarla en GitBook u otros sistemas.  
-- Permite insertar etiquetas HTML para personalizar estilos dentro del Markdown.  
-- Fácil de usar y modificar para adaptarse a distintos flujos de trabajo de documentación.
+- Converts ODT files to Markdown with high fidelity using Pandoc.
+- Adds YAML frontmatter with the file's creation date for display in GitBook or other systems.
+- Allows you to insert HTML tags to customize styles within Markdown.
+- Easy to use and modify to adapt to different documentation workflows.
 
 ---
 
 ## Project Structure
 
-```
+### Feel free to contact me through the following profiles:
+├── odt_to_md_converter.py # Script principal para conversión y formateo
+├── README.md # Este archivo
+├── examples/ # Carpeta con archivos de ejemplo (.odt y .md)
 
-├── convertir_odt_a_md.py    \# Script principal para conversión y formateo
-├── README.md                \# Este archivo
-├── ejemplos/                \# Carpeta con archivos de ejemplo (.odt y .md)
 
-```
+
 
 ---
 
@@ -44,49 +44,32 @@ Este script convierte archivos con extensión `.odt` (OpenDocument Text) a archi
 
 ## Installation
 
-1. Clona el repositorio o descarga el script:  
+## 1. Clona el repositorio o descarga el script:  
 
 ```
+https://github.com/tobproject/ODT_to_MD_converter.git
 
-git clone https://github.com/tobproject/odt-to-markdown.git
 cd odt-to-markdown
-
 ```
 
-2. Instala la librería `pypandoc`:  
 
-```
+## 2. Instala la librería `pypandoc`:  
 
-pip install pypandoc
 
-```
+## 3. Instala Pandoc siguiendo las instrucciones oficiales:  
+[https://pandoc.org/installing.html](https://pandoc.org/installing.html)
 
-3. Instala Pandoc siguiendo las instrucciones oficiales:  
-https://pandoc.org/installing.html
-
-4. Verifica la instalación ejecutando en consola:  
-
-```
-
-pandoc --version
-
-```
+## 4. Verifica la instalación ejecutando en consola:  
 
 ---
 
 ## Usage
 
-1. Modifica las variables `ruta_odt` y `ruta_md` en el script `convertir_odt_a_md.py` para apuntar a tus archivos.  
+# 1. Modifica las variables 
+```ruta_odt```  y  ```ruta_md``` en el script ```convertir_odt_a_md.py``` para apuntar a tus archivos.  
 
-2. Ejecuta el script:  
-
-```
-
-python convertir_odt_a_md.py
-
-```
-
-3. El script realizará:  
+# 2. Ejecuta el script:  
+El script realizará:  
    - Conversión del archivo `.odt` a `.md`.  
    - Inserción de la fecha de creación en formato YAML al inicio del Markdown.  
    - Reemplazo de títulos por HTML con estilos personalizados (configurable).
@@ -106,10 +89,6 @@ Para dudas o sugerencias, puedes contactarme a través de [tu email o perfil Git
 ---
 
 ¡Gracias por usar este conversor ODT a Markdown! 🚀
-```
 
 
----
-
-¿Quieres que te ayude a generar también un archivo LICENSE o a preparar ejemplos de uso para tu repositorio?
 
